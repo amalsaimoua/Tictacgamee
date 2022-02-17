@@ -123,6 +123,7 @@ class _ticTacState extends State<ticTac> {
       updateState();
     }
   }
+  /////first update
 
   void updateState() {
     setState(() {
@@ -136,5 +137,5 @@ class _ticTacState extends State<ticTac> {
       } else if(!gameOver && turn == 9)
         result = ('it is draw');
     });
-  }
+  }//88
 }
